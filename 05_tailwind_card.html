@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card | Tailwind</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="flex h-screen w-screen items-center justify-center bg-gradient-to-br from-purple-500 to-pink-500">
+        <div id="card" class="h-4/5 w-72 rounded-md border border-white bg-white shadow-lg">
+            <div class="image h-48 w-full overflow-hidden rounded-md">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D"
+                    alt="" class="rounded-md transition-all hover:scale-110" />
+            </div>
+            <div class="details space-y-2 p-5">
+                <h2 class="text-xl font-semibold">Nike Pegasus 408</h2>
+                <p class="text-sm text-slate-500">Road Running Shoes</p>
+                <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quas ab a tempore,
+                    fugiat molestiae. Aliquam modi nesciunt quae quis esse laudantium consectetur et libero! Ratione
+                    quia explicabo pariatur nostrum?</p>
+            </div>
+            <hr />
+            <div class="price px-5 py-3 text-2xl font-bold text-slate-900">$190</div>
+            <hr />
+            <div id="buttons" class="mt-4 flex justify-between space-x-3 px-5">
+                <button
+                    class="w-1/2 rounded-full border border-black p-2 px-2 text-xs transition-all hover:bg-slate-950 hover:text-white">Favourites</button>
+                <button
+                    class="w-1/2 rounded-full border border-black bg-slate-950 p-2 px-2 text-xs text-white transition-all hover:bg-slate-50 hover:text-slate-950">Add
+                    to Bag</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
