@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hover | Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <section class="flex h-screen w-screen flex-col items-center justify-center space-y-5 bg-gradient-to-br from-cyan-400 to-blue-700">
+        <div class="space-between group relative md:w-1/2 w-3/4 overflow-hidden rounded-md border bg-slate-200 shadow-xl">
+          <img src="https://images.unsplash.com/photo-1655358336065-610208ea0c90?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-fit h-56 w-full object-cover group-hover:backdrop-blur-md group-hover:scale-110 transition-all " alt="" />
+          <h2 class="absolute bottom-0 w-full p-2 text-center text-3xl font-bold text-white group-hover:hidden transition-all">WELCOME TO DEOMALI</h2>
+          <div class="absolute top-96 h-full bg-black/20 text-center backdrop-blur-[2px] transition-all group-hover:top-0">
+            <h2 class="bottom-0 w-full p-2 text-center text-3xl font-bold text-white">WELCOME TO DEOMALI</h2>
+            <p class="sm:text-md te p-3 text-sm text-white">Deomali is a mountain peak in the Chandragiri-Pottangi subrange of the Eastern Ghats in Odisha, India. At 1,672 meters, it's the highest peak in Odisha and one of the top hill stations in the state. Deomali is located near Koraput town in the Koraput district, about 60 kilometers away by road!</p>
+          </div>
+        </div>
+        <div class="space-between group relative md:w-1/2  w-3/4 overflow-hidden rounded-md border bg-slate-200 shadow-xl">
+          <img src="https://images.unsplash.com/photo-1597637245553-f7a31ebb6a32?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-fit h-56 w-full object-cover group-hover:backdrop-blur-md group-hover:scale-110 transition-all " alt="" />
+          <h2 class="absolute bottom-0 w-full p-2 text-center text-3xl font-bold text-white group-hover:hidden transition-all">WELCOME TO KORAPUT</h2>
+          <div class="absolute top-56 h-full bg-black/20 text-center backdrop-blur-[2px] transition-all duration-300 ease-in-out group-hover:top-0">
+            <h2 class="bottom-0 w-full p-2 text-center text-3xl font-bold text-white">WELCOME TO KORAPUT</h2>
+            <p class="sm:text-md xs p-3 text-sm text-white">Koraput, the beautiful district also known as the 'Switzerland of Odisha', is crammed with large waterfalls, expansive skies, majestic hills, and spectacular wildlife. It is in the agro-climatic zone of India, consisting of red, red, and yellow mixed soil that is rich in iron and aluminium</p>
+          </div>
+        </div>
+      </section>
+      
+    
+</body>
+</html>
